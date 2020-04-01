@@ -4,5 +4,6 @@ using std::cout;
 int main()
 {
 	cout << "Hello World!\n";
+	cin.get();
 	return 0;
 }
