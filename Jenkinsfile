@@ -3,6 +3,6 @@ node{
 	 git 'https://github.com/shikha91/TestProject'
 	 }
 	 stage('Compile-Package'){
-	 sh 'mvn package'
+	 sh 'g++ HelloJenkins.cpp -o hello.exe'
 	 }
 	 }
